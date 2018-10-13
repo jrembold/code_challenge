@@ -3,4 +3,6 @@ remote_theme: chrisbobbe/jekyll-theme-prologue
 title: Rembolds Coding Challenges
 description: A set of fun little challenges to reinforce proficiency in Python and explore the fun side of coding
 
+avatar: assets/images/avatar.jpg
+
 collections: [sections]
