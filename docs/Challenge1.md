@@ -1,6 +1,7 @@
 ---
 title: 'Challenge 1'
+order: 2
 ---
 
 # Challenge 1
-What is this even doing? Is it working at all?
+I think this is finally working and starting to come together...
