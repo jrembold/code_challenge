@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+remote_theme: chrisbobbe/jekyll-theme-prologue
 
 title: Rembold's Coding Challenges
 description: A set of fun little challenges to reinforce proficiency in Python and explore the fun side of coding
