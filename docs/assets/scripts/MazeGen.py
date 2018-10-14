@@ -1,1 +1,1 @@
-/home/jedediah/Git/Code-Challenge/C1/MazeGen.py
+../../../C1/MazeGen.py
