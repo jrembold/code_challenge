@@ -29,3 +29,7 @@ You are only allowed to move up, down, left or right.
 No diagonal movement is allowed.
 
 If you think you have a working solution, verify that it works on mazes of size 20, 50, and 100 and then email me with your script attached!
+
+<footer>
+  <a href="assets/scripts/MazeGen.py" class="button scrolly">Download MazeGen.py</a>
+</footer>
