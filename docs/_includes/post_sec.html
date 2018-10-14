@@ -15,7 +15,7 @@
 	{%- capture _photo -%}
 		<img src="{{- include.photo | relative_url -}}" alt="{{- include.photo-alt -}}" class="top">
 	{%- endcapture -%}
-	{%- capture _class -%}shade-{%- cycle 'two', 'three', 'four', 'three' -%} cover dark {%- endcapture -%}
+	{%- capture _class -%}cover shade-{%- cycle 'two', 'three', 'four', 'three' -%}{%- endcapture -%}
 {%- else -%}
 	{%- assign _photo = '' -%}
 	{%- capture _class -%}shade-{%- cycle 'two', 'three', 'four', 'three' -%}{%- endcapture -%}
