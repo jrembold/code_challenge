@@ -1,6 +1,5 @@
 ---
 title: Challenge 1a
-date: 2018-10-13
 author: Jed
 layout: post
 ---
