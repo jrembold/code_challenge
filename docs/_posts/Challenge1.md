@@ -1,6 +1,8 @@
 ---
-title: 'Challenge 1'
-order: 2
+title: Challenge 1a
+date: 2018-10-13
+author: Jed
+layout: post
 ---
 
 # Challenge 1
