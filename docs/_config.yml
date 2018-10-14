@@ -1,5 +1,5 @@
 remote_theme: chrisbobbe/jekyll-theme-prologue
-baseurl: "/code-challenge"
+baseurl: "/code_challenge"
 url: ""
 
 title: Rembold's Coding Challenges
