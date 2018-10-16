@@ -28,12 +28,13 @@ Once you have that, you can start the process of finding your way through the ma
 The numpy array is setup such that 1's represent walls and 0's represent corridors. 
 You are only allowed to move up, down, left or right.
 No diagonal movement is allowed.
-A note on visualizing: You may want to use `cmap=gray_r` when plotting the maze itself with `plt.imshow` to ensure you get white paths and black corridors.
+
+_A note on visualizing: You may want to use `cmap=gray_r` when plotting the maze itself with `plt.imshow` to ensure you get white paths and black corridors._
 
 For this first challenge, a potential solution might look something like
 <center>
 <figure>
-<img src="{{site.baseurl}}/assets/images/C1a_cover.png" alt="Image of solved maze" style="width:50%">
+<img src="{{site.baseurl}}/assets/images/C1a_cover.png" alt="Image of solved maze" style="width:30%">
 <figcaption>An example of a solved maze</figcaption>
 </figure>
 </center>
