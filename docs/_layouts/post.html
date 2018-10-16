@@ -9,7 +9,7 @@ layout: default
 	<article class="shade-two">
 	  <div class="container">
 			<header>
-				<img src="{{- page.cover-photo | relative_url -}}" alt="{{- page.cover-photo-alt -}}">
+				<img src="{{- page.cover-photo | relative_url -}}" alt="{{- page.cover-photo-alt -}}" class="image fit">
 				<h2>{{- page.title -}}</h2>
 				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
 			</header>
