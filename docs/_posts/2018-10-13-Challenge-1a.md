@@ -26,8 +26,8 @@ Then you can start the process of finding your way through the maze!
 For this first challenge, a potential solution might look something like
 <center>
 <figure>
-	<img="{{site.baseurl}}/assets/images/C1a_cover.png" alt="Image of solved maze">
-	<figcaption>An example of a solved maze</figcaption>
+<img src="{{site.baseurl}}/assets/images/C1a_cover.png" alt="Image of solved maze">
+<figcaption>An example of a solved maze</figcaption>
 </figure>
 </center>
 
