@@ -9,13 +9,10 @@ def gen_maze(d, plot=False):
     size = d
 
     entrance = np.random.randint(1,size-1)
-    # exit = np.random.randint(1,size-1)
 
     d = np.ones((size,size))
     h,w = d.shape
     d[0,entrance] = 0
-    # d[-1,exit] = 0
-
     d[1,entrance] = 0
 
     maze = [(1,entrance)]
@@ -57,8 +54,6 @@ def gen_maze(d, plot=False):
     random.shuffle(possible_xs)
     while not finished:
         exit = possible_xs.pop()
-        # nbrs = get_nbrs((-1,exit))
-        # if any([d[x]==0 for x in nbrs]):
         if d[(-2,exit)]==0:
             d[-1,exit] = 0
             finished = True
