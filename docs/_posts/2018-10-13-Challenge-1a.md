@@ -25,7 +25,10 @@ maze, enter, exit = MazeGen.gen_maze(size)
 Then you can start the process of finding your way through the maze!
 For this first challenge, a potential solution might look something like
 <center>
-![Image of solved maze]({{site.baseurl}}/assets/images/C1a_cover.png)
+<figure>
+	<img="{{site.baseurl}}/assets/images/C1a_cover.png" alt="Image of solved maze">
+	<figcaption>An example of a solved maze</figcaption>
+</figure>
 </center>
 
 The numpy array is setup such that 1's represent walls and 0's represent corridors. 
