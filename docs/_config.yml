@@ -7,6 +7,7 @@ description: A set of fun little challenges to reinforce proficiency in Python a
 
 avatar: assets/images/avatar.png
 
+markdown: kramdown
 highlighter: rouge
 
 collections: [sections]
