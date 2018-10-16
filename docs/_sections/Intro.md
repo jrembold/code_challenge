@@ -3,7 +3,7 @@ title: Intro
 auto-header: none
 cover-photo: assets/images/banner2.jpg
 cover-photo-alt: example cover photo
-icon: fa-comment
+icon: fa-desktop
 order: 1
 ---
 ## **Welcome to Rembold's Coding Challenges!**

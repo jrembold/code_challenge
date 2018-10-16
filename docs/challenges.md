@@ -1,6 +1,6 @@
 ---
 layout: blog
 title: Challenges
-icon: fa-pencil-alt
+icon: fa-trophy
 order: 2
 ---

@@ -4,6 +4,7 @@ author: Jed
 layout: post
 cover-photo: assets/images/C1a_cover.png
 cover-photo-alt: Image of a solved maze
+icon: fa-certificate
 ---
 
 The first challenges are all about finding your way through randomly generated mazes of different sizes.
