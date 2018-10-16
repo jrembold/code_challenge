@@ -267,7 +267,7 @@
 			margin: 0 0 2em 0;
 
 			&.strip {
-				position: absolute;
+				object-fit: cover;
 				width: 100%;
 				height: 20%;
 				top: 0;
