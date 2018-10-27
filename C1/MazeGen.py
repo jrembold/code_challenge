@@ -64,6 +64,21 @@ def gen_maze(d, plot=False):
 
     return d, (0,entrance), (h-1,exit)
 
+
+def gen_maze2(size, plot=False):
+    maze, enter, exit = gen_maze(size, plot=False)
+
+    rrs = np.random.randint(1,size-1,20)
+    rcs = np.random.randint(1,size-1,20)
+    maze[rrs, rcs] = 0
+
+    if plot:
+        plt.imshow(maze, cmap='gray_r')
+        plt.axis('off')
+        plt.show()
+
+    return maze, enter, exit
+
 if __name__ == '__main__':
-    gen_maze(50, plot=True)
+    gen_maze2(50, plot=True)
 
