@@ -68,8 +68,8 @@ def gen_maze(d, plot=False):
 def gen_maze2(size, plot=False):
     maze, enter, exit = gen_maze(size, plot=False)
 
-    rrs = np.random.randint(1,size-1,20)
-    rcs = np.random.randint(1,size-1,20)
+    rrs = np.random.randint(1,size-1,int(size**2*0.05))
+    rcs = np.random.randint(1,size-1,int(size**2*0.05))
     maze[rrs, rcs] = 0
 
     if plot:
