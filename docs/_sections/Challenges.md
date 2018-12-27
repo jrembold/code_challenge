@@ -9,7 +9,7 @@ order: 2
   <div class="row">
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="{{% post_url 2018-10-13-Challenge-1a | relative_url %}}" class="image fit"><img src="{{ 'assets/images/C1a_cover.png' | relative_url }}" alt="Challenge 1a" /></a>
+        <a href="{{% post_url 2018-10-13-Challenge-1a | absolute_url %}}" class="image fit"><img src="{{ 'assets/images/C1a_cover.png' | relative_url }}" alt="Challenge 1a" /></a>
         <header>
           <h3>Challenge 1a</h3>
         </header>
