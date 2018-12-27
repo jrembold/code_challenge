@@ -22,3 +22,9 @@ Make sure you generate your maze using `gen_maze2`, as there is always only a si
 </figure>
 
 Once you have a script that can find and plot the shortest path, test it on several different sizes of maze (20, 50, 100) and then send it my way!
+
+<footer>
+<center>
+<a href="{{site.baseurl}}/assets/scripts/MazeGen.py" class="button scrolly">Download latest MazeGen.py</a>
+</center>
+</footer>
