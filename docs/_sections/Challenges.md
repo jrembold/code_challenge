@@ -17,7 +17,7 @@ order: 2
     </div>
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/C1b_cover.png' | relative_url }}" alt="Challenge 1b" /></a>
+        <a href="{{site.baseurl}}{% post_url 2018-10-13-Challenge-1b %}" class="image fit"><img src="{{ 'assets/images/C1b_cover.png' | relative_url }}" alt="Challenge 1b" /></a>
         <header>
           <h3>Challenge 1b</h3>
         </header>
@@ -25,7 +25,7 @@ order: 2
     </div>
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/C1c_cover.png' | relative_url }}" alt="Challenge 1c" /></a>
+        <a href="{{site.baseurl}}{% post_url 2018-12-26-Challenge-1c %}" class="image fit"><img src="{{ 'assets/images/C1c_cover.png' | relative_url }}" alt="Challenge 1c" /></a>
         <header>
           <h3>Challenge 1c</h3>
         </header>
